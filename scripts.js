@@ -1,7 +1,7 @@
 
 
 
-let imagem = document.querySelector(".imagem-copo") 
+let imagem = document.querySelector(".imagem-ovo") 
 let circulo = document.querySelector(".circulo")
 
 

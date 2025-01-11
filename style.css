@@ -37,12 +37,13 @@ h2 {
 
 span {
     color: #017143;
-    font-size: 70px;
+    font-size: 1.8em;
     font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-    font-size: 16px;
+    font-size: 25px;
 }
 
 button {

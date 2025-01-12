@@ -152,3 +152,58 @@ nav ul li a:hover {
 
 /* Página Produtos */
 
+.site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Garante que o conteúdo interno ocupe 100% */
+    max-width: 1200px; /* Limita a largura máxima */
+    margin: 0 auto; /
+}
+footer {
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre as seções */
+    align-items: center; /* Centraliza os itens verticalmente */
+    padding: 20px 40px; /* Espaçamento interno */
+    color: #fff;
+   
+    width: 100%; /* Garante que ocupe 100% da largura */
+    position: relative; /* Evita problemas de layout */
+    left: 0;
+    bottom: 0;
+    flex-wrap: wrap; /* Permite quebra de linha se os itens não couberem */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Adiciona um leve sombreado para destaque */
+}
+
+
+
+footer section {
+    display: flex;
+    flex-direction: row; /* Alinha os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    text-align: left; /* Ajusta o alinhamento do texto */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+footer ul {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os itens da lista */
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li img {
+    width: 114px; /* Ajuste do tamanho das imagens */
+    height: auto;
+}
+
+footer h3 {
+    font-size: 1rem;
+    margin: 0 10px 0 0;
+}
+
+footer p {
+    margin: 0 10px 0 0;
+    font-size: 0.9rem;
+}

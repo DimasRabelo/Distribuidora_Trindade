@@ -79,6 +79,8 @@ p {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    padding-right: 300px;
+    margin: 15px;
   
 }
 
@@ -113,6 +115,7 @@ p {
 
 .imagem-ovo {
     width: 43%;
+    top: -35px;
 
 }
 
@@ -164,7 +167,7 @@ footer {
     display: flex;
     justify-content: space-between; /* Espaçamento entre as seções */
     align-items: center; /* Centraliza os itens verticalmente */
-    padding: 20px 40px; /* Espaçamento interno */
+    padding: 30px 55px; /* Espaçamento interno */
     color: #fff;
    
     width: 100%; /* Garante que ocupe 100% da largura */
@@ -206,4 +209,30 @@ footer h3 {
 footer p {
     margin: 0 10px 0 0;
     font-size: 0.9rem;
+}
+.whatsapp-button {
+    position: fixed; /* Fixa o botão em uma posição fixa na tela */
+    bottom: 15px; /* Distância do botão em relação à parte inferior da tela */
+    right: 20px; /* Distância do botão em relação ao lado direito da tela */
+    z-index: 1000; /* Garante que fique à frente de outros elementos */
+    width: 60px; /* Largura do botão */
+    height: 60px; /* Altura do botão */
+    border-radius: 50%; /* Torna o botão circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+    overflow: hidden; /* Garante que o conteúdo fique dentro do botão */
+    background-color: #25d366; /* Cor de fundo verde WhatsApp */
+    display: flex; /* Centraliza o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    transition: transform 0.3s ease; /* Adiciona uma animação suave ao passar o mouse */
+}
+
+.whatsapp-button img {
+    width: 149%; /* Ajusta o tamanho do ícone */
+    height: auto;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1); /* Aumenta o botão levemente ao passar o mouse */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Intensifica a sombra ao passar o mouse */
 }

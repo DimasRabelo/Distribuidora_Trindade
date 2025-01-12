@@ -8,20 +8,22 @@ a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "";
     
 }
 
 body {
-    padding-top: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-left: 60px;
+    background-color:#964b00;
+    
 }
 
 .conteudo {
     width: 100%; /* LARGURA */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -36,8 +38,8 @@ h2 {
 }
 
 span {
-    color: #017143;
-    font-size: 1.8em;
+    color: #000000;
+    font-size: 0.7em;
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -65,7 +67,7 @@ button:hover{
     width: 600px;
     display: flex;
     justify-content: flex-end;
-    margin-top: 250px;
+    margin-top: 0px;
 }
 
 .menu-inicio{
@@ -78,12 +80,15 @@ button:hover{
 .menu {
     display: flex;
     justify-content: center;
+    margin-top: 70px;
+   
 }
 
 .botao-menu {
     width: 60px;
     cursor: pointer;
     transition: 1s;
+    object-fit: contain;
 }
 
 .botao-menu:hover{
@@ -91,22 +96,39 @@ button:hover{
 }
 .circulo {
     background: #017143;
-    height: 100%; /* Altura */
+    height:  100%; /* Altura */
     width: 100%; /* Largura */
     position: absolute;
-    top: 0;
+    top: -125px;
     left: 0;
-    clip-path: circle(600px at right 800px);
+    clip-path: circle(604px at right 768px);
     z-index: -1;
 }
 
 .logo {
-    width: 220px;
+    width: 170px;
     border-radius: 50%;
     overflow: hidden; 
 }
 
-.imagem-copo {
-    width: 340px;
+.logogeral{
+    width: 100%;
 }
 
+.imagem-ovo {
+    width: 43%;
+   
+}
+
+nav ul{
+    display: flex;
+    color: #000000;
+    font-size: 1.0em;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+}
+
+nav ul li a {
+    padding: 10px 10px;
+}

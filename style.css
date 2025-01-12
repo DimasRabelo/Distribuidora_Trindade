@@ -9,7 +9,7 @@ a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Secular One"
+    font-family: "Poppins", serif!important;
 
 
 }
@@ -19,6 +19,8 @@ body {
     padding-right: 40px;
     padding-left: 60px;
     background-color: #964b00;
+
+ 
 
 }
 
@@ -49,32 +51,21 @@ span {
     font-weight: 900;
 
 }
+span:hover {
+    color: #ffffff; /* Muda a cor do texto quando o mouse passa por cima */
+}
+.textos p:hover{
+    color: #ffffff;
+}
 
 p {
     font-size: 25px;
 }
 
-button {
-    background: #017143;
-    /* background -> fundo do elemento */
-    color: white;
-    /* cor do texto */
-    border-radius: 40px;
-    /* arredondamento da borda */
-    border: none;
-    /* borda do elemento */
-    cursor: pointer;
-    /* cursor do mouse */
-    padding: 10px;
-    /* espaçamento interno */
-    margin-top: 20px;
-    /* Cria uma margem  */
-    transition: 0.5s;
+.menu p:hover{
+    color: #ffffff;
 }
 
-button:hover {
-    background-color: #018950;
-}
 
 .imagem {
     width: 600px;
@@ -88,13 +79,15 @@ button:hover {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+  
 }
 
 .menu {
     display: flex;
     justify-content: flex-start;
     margin-top: 70px;
-    align-items: center
+    align-items: center;
+    
 }
 
 .botao-menu {
@@ -106,19 +99,6 @@ button:hover {
 
 .botao-menu:hover {
     transform: translateY(-25px);
-}
-
-.circulo {
-    background: #017143;
-    height: 100%;
-    /* Altura */
-    width: 100%;
-    /* Largura */
-    position: absolute;
-    top: -125px;
-    left: 0;
-    clip-path: circle(604px at right 768px);
-    z-index: -1;
 }
 
 .logo {
@@ -152,3 +132,23 @@ nav ul li a:hover {
     color: #ffffff;
     
 }
+
+.circulo {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    right: 200px; /* Encosta no lado direito */
+    width: 400px; /* Tamanho do círculo */
+    height: 400px; /* Tamanho do círculo */
+    background-color: rgba(35, 9, 9, 0.1); /* Cor do círculo, ajuste conforme necessário */
+    border-radius: 50%; /* Faz o círculo */
+    transform: translate(50%, -50%); /* Ajusta o posicionamento no lado direito */
+    z-index: 1; /* Coloca o círculo abaixo da imagem */
+}
+
+.imagem-ovo {
+    position: relative; /* A imagem ficará acima do círculo */
+    z-index: 2; /* Garante que a imagem fique acima do círculo */
+}
+
+/* Página Produtos */
+

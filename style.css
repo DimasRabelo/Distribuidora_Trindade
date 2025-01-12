@@ -1,27 +1,30 @@
 a {
-    text-decoration: none; /* Remove o sublinhado */
-    color: inherit; /* Mantém a cor herdada do pai, caso necessário */
+    text-decoration: none;
+    /* Remove o sublinhado */
+    color: inherit;
+    /* Mantém a cor herdada do pai, caso necessário */
 }
 
-* 
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "";
-    
+    font-family: "Secular One"
+
+
 }
 
 body {
     padding-top: 0px;
     padding-right: 40px;
     padding-left: 60px;
-    background-color:#964b00;
-    
+    background-color: #964b00;
+
 }
 
 .conteudo {
-    width: 100%; /* LARGURA */
+    width: 100%;
+    /* LARGURA */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,16 +35,19 @@ body {
 }
 
 h2 {
-    color: #333; /* Cor do texto */
-    font-size: 60px; /* Tamanho do texto */
-    font-weight: bold; /* Grossura do texto*/
+    color: #333;
+    /* Cor do texto */
+    font-size: 60px;
+    /* Tamanho do texto */
+    font-weight: bold;
+    /* Grossura do texto*/
 }
 
 span {
     color: #000000;
     font-size: 0.7em;
     font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 p {
@@ -49,17 +55,24 @@ p {
 }
 
 button {
-    background: #017143;/* background -> fundo do elemento */
-    color: white;/* cor do texto */
-    border-radius: 40px;/* arredondamento da borda */
-    border: none;/* borda do elemento */
-    cursor: pointer;/* cursor do mouse */
-    padding: 10px; /* espaçamento interno */
-    margin-top: 20px;/* Cria uma margem  */
+    background: #017143;
+    /* background -> fundo do elemento */
+    color: white;
+    /* cor do texto */
+    border-radius: 40px;
+    /* arredondamento da borda */
+    border: none;
+    /* borda do elemento */
+    cursor: pointer;
+    /* cursor do mouse */
+    padding: 10px;
+    /* espaçamento interno */
+    margin-top: 20px;
+    /* Cria uma margem  */
     transition: 0.5s;
 }
 
-button:hover{
+button:hover {
     background-color: #018950;
 }
 
@@ -70,7 +83,7 @@ button:hover{
     margin-top: 0px;
 }
 
-.menu-inicio{
+.menu-inicio {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -79,9 +92,9 @@ button:hover{
 
 .menu {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 70px;
-   
+    align-items: center
 }
 
 .botao-menu {
@@ -91,13 +104,16 @@ button:hover{
     object-fit: contain;
 }
 
-.botao-menu:hover{
+.botao-menu:hover {
     transform: translateY(-25px);
 }
+
 .circulo {
     background: #017143;
-    height:  100%; /* Altura */
-    width: 100%; /* Largura */
+    height: 100%;
+    /* Altura */
+    width: 100%;
+    /* Largura */
     position: absolute;
     top: -125px;
     left: 0;
@@ -108,27 +124,31 @@ button:hover{
 .logo {
     width: 170px;
     border-radius: 50%;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
-.logogeral{
+.logogeral {
     width: 100%;
 }
 
 .imagem-ovo {
     width: 43%;
-   
+
 }
 
-nav ul{
+nav ul {
     display: flex;
     color: #000000;
-    font-size: 1.0em;
+    font-size: 1.6em;
     font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 5px 5px;
 }
 
 nav ul li a {
     padding: 10px 10px;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    
 }

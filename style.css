@@ -210,6 +210,23 @@ footer p {
     margin: 0 10px 0 0;
     font-size: 0.9rem;
 }
+
+   
+
+.rodapé2 {
+    display: flex;
+    justify-content: center;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
+    
+    width: 100%;
+}
+
+.rodapé2 p {
+    margin: 0; /* Remove margem padrão */
+    line-height: 1.5; /* Melhora o espaçamento entre linhas */
+    font-size: 0.7em; /* Tamanho do texto */
+}
 .whatsapp-button {
     position: fixed; /* Fixa o botão em uma posição fixa na tela */
     bottom: 15px; /* Distância do botão em relação à parte inferior da tela */
